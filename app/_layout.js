@@ -4,7 +4,7 @@ export default function Layout() {
     return (
         <Stack>
             <Stack.Screen options={{headerShown: false}} name="OnboardingScreen" />
-            <Stack.Screen name="HomeScreen" />
+            <Stack.Screen options={{title: 'DollarPe'}} name="HomeScreen" />
         </Stack>
     )
     

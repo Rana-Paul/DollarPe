@@ -21,20 +21,20 @@ const slides = [
   {
     id: '1',
     image: require('../assets/Earth.png'),
-    title: 'Best Digital Solution',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Best Payment Solution',
+    subtitle: 'USA to India money transfers, at Zero fees.',
   },
   {
     id: '2',
     image: require('../assets/promise.png'),
-    title: 'Achieve Your Goals',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Instant Payments',
+    subtitle: 'Enjoy payments in less than 10 mins',
   },
   {
     id: '3',
     image: require('../assets/transfer.png'),
-    title: 'Increase Your Value',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Best Rates',
+    subtitle: 'Get the ex-rates you see on Google',
   },
 ];
 
@@ -199,7 +199,7 @@ const styles = StyleSheet.create({
   image: {
     height: '100%',
     width: '100%',
-    resizeMode: 'stretch',
+    resizeMode: 'contain',
   },
   indicator: {
     height: 2.5,

@@ -1,18 +1,8 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import {NavigationContainer} from '@react-navigation/native'
-import {createStackNavigator} from '@react-navigation/native-stack'
+
 
 export default function App() {
-  return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        
-      </Stack.Navigator>
-
-
-    </NavigationContainer>
-  );
+  return ;
 }
 
 const styles = StyleSheet.create({
@@ -23,3 +13,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+// https://github.com/hakymz/OnboardingScreenAppReactNative/blob/main/App.js
